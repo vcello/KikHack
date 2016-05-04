@@ -1,0 +1,538 @@
+{
+	"messages" : [
+		{
+			"keywords" : "test",
+			"type" : "text",
+			"text" : "\u270b \u270c \u270d \u2753 \u2B50 \u1F440 \u26A1 \u2764",
+			"buttons" : []
+		},
+		{
+			"keywords" : "^help$|^hi$|^hello$|^hey$|^qq$",
+			"text" : "Hi, welcome back!\u270b\nWhat are we up to today?",
+			"type" : "text",
+			"buttons" : [ {
+				"text" : "\u2753 Find a product"
+			}, {
+				"text" : "Shopping guides"
+			}, {
+				"text" : "Show me the $$"
+			}, {
+				"text" : "\u26A1 Surprise me"
+			} ]
+		},
+		
+		{
+			"keywords" : "Start over|back to all the other ways I can help you!",
+			"text" : "Sure, what would you like to do next?",
+			"type" : "text",
+			"buttons" : [ {
+				"text" : "\u2753 Find a product"
+			}, {
+				"text" : "Shopping guides"
+			}, {
+				"text" : "Show me the $$"
+			}, {
+				"text" : "\u26A1 Surprise me"
+			} ]
+		},
+		{
+			"keywords" : "Find a product|Search for Products|Search Again",
+			"type" : "text",
+			"text" : "What are you looking for?",
+			"buttons" : [ {
+				"text" : "Dresses"
+			}, {
+				"text" : "Jeans"
+			}, {
+				"text" : "Shoes"
+			}, {
+				"text" : "Jewelry"
+			}, {
+				"text" : "back to all the other ways I can help you!"
+			} ]
+		},
+		{
+			"keywords" : "Show me the \\$\\$|deals|offers",
+			"type" : "text",
+			"text" : "Here's some great offers going on now!",
+			"buttons" : [ {
+				"text" : "Friends & Family"
+			}, {
+				"text" : "Double Plenti points"
+			}]
+		},
+
+		{
+			"keywords" : "Friends & Family",
+			"url" : "http://www1.macys.com/cms/deals/FRIEND_FAMILY_SALE_120413_FRIEND",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Start over"
+			} ]
+		},
+		
+		{
+			"keywords" : "Double Plenti points",
+			"url" : "https://twitter.com/PlentiRewards/status/682561870205550592",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Show me my Plenti points"
+			},{
+				"text" : "Start over"
+			}]
+		},
+		
+		{
+			"keywords" : "Show me my Plenti points",
+			"text" : "You have 1293 available points.",
+			"type" : "text",
+			"buttons" : [ {
+				"text" : "Start over"
+			}]
+		},
+		
+		{
+			"keywords" : "^Jewelry$",
+			"url" : "http://www1.macys.com/shop/product/14k-white-gold-diamond-1-1-4-ct.-t.w.-stud-earrings?ID=1149524&CategoryID=10835",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Show me more jewelry"
+			}, {
+				"text" : "Search again"
+			} ]
+		},
+		
+		{
+			"keywords" : "Show me more jewelry",
+			"url" : "http://www1.macys.com/shop/search?keyword=jewelry",
+			"text" : "Here's some jewelry on macys.com",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Search again"
+			},{ 
+				"text" : "Start over"
+			} ]
+		},
+		
+		{
+			"keywords" : "Shoes",
+			"url" : "http://www1.macys.com/shop/product/lucky-brand-womens-basel-booties?ID=1539528&CategoryID=25122",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "More shoe styles"
+			}, {
+				"text" : "Search again"
+			} ]
+		},
+		{
+			"keywords" : "More shoe styles",
+			"url" : "http://www1.macys.com/shop/search?keyword=shoes",
+			"text" : "Here's some shoes on macys.com",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Search again"
+			}, {
+				"text" : "Start over"
+			} ]
+		},
+		
+		{
+			"keywords" : "^Jeans$",
+			"url" : "http://www1.macys.com/shop/product/levis-710-super-skinny-jeans?ID=2631998&CategoryID=28754",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Show me more jeans"
+			}, {
+				"text" : "Search again"
+			} ]
+		},
+		{
+			"keywords" : "Show me more jeans",
+			"url" : "http://www1.macys.com/shop/search?keyword=jeans",
+			"text" : "Ok, here are more jeans on macys.com",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Search again"
+			}, {
+				"text" : "Start over"
+			} ]
+		},
+		
+		{
+			"keywords" : "^Dresses$",
+			"url" : "http://www1.macys.com/shop/product/bar-iii-cap-sleeve-fit-flare-dress?ID=1975629&CategoryID=5449",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "More dresses"
+			}, {
+				"text" : "Search again"
+			} ]
+		},
+		{
+			"keywords" : "More dresses",
+			"url" : "http://www1.macys.com/shop/search?keyword=dresses",
+			"text" : "Here are more dresses on macys.com",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Search again"
+			}, {
+				"text" : "Start over"
+			} ]
+		},
+		
+		{
+			"keywords" : "Surprise me",
+			"id" : 1,
+			"url" : "https://www.youtube.com/embed/UTGtltebgQo",
+			"type" : "video",
+			"buttons" : [ {
+				"text" : "Keep it going"
+			}, {
+				"text" : "Start over"
+			}]
+		},
+		{
+			"keywords" : "Keep it going",
+			"id" : 1,
+			"url" : "http://pin.it/FDBQJmJ",
+			"type" : "link",
+			"buttons" : [ {
+				"text" : "Show me another!"
+			}, {
+				"text" : "Start over"
+			}]
+		},{
+			"keywords" : "Show me another!",
+			"id" : 1,
+			"url" : "https://www.youtube.com/embed/JL60TEfyJV0",
+			"type" : "video",
+			"buttons" : [
+			 {
+				"text" : "Start over"
+			}]
+		},
+		
+		{  
+	         "keywords":"Shopping guides",
+	         "id":1,
+	         "text":"What are you looking for?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"Mother's Day"
+	            },
+	            {  
+	               "text":"Home Decor"
+	            }
+	         ]
+	      },
+	      
+	      {
+				"keywords" : "Mother's Day",
+				"text" : "Check back tomorrow for more guides!",
+				"type" : "text",
+				"buttons" : [
+				 {
+					"text" : "Start over"
+				}]
+			},
+		
+		{  
+	         "keywords":"Home Decor",
+	         "id":1,
+	         "text":"What's your decorating style?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"less is more",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"the more, the merrier",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"less is more",
+	         "id":1,
+	         "text":"What best describes your fave piece of furniture?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"elegant & ornate",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"sleek & bold",
+	               "nextmessage":"2"
+	            },
+	            {  
+	               "text":"unique & eclectic",
+	               "nextmessage":"3"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"the more, the merrier",
+	         "id":1,
+	         "text":"What color scheme makes you feel at home?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"a splash of this! a splash of that!"
+	            },
+	            {  
+	               "text":"neutrals & earth tones"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"elegant & ornate|a small town",
+	         "id":1,
+	         "text":"What's your approach to antiques?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"I want them all",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"only family heirlooms",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"sleek & bold",
+	         "id":1,
+	         "text":"Your ideal home is in...",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"a small town",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"a city",
+	               "nextmessage":"2"
+	            },
+	            {  
+	               "text":"I can't pick just one place",
+	               "nextmessage":"3"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"unique & eclectic|a splash of this! a splash of that!",
+	         "id":1,
+	         "text":"When friends come over, you want them to notice...",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"your unique taste",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"how homey your space is",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"how homey your space is|neutrals & earth tones",
+	         "id":1,
+	         "text":"What's on your walls?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"prints, posters, patterns, color, oh my!",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"wooden pieces with lots of texture",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"I want them all",
+	         "id":1,
+	         "text":"Your fave weekend activity is...",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"seeing the ballet or going to a museum",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"trying a new restaurant or seeing a new movie",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"only family heirlooms|a city|angular, bold & pretty iconic looking",
+	         "id":1,
+	         "text":"When you get dressed in the morning, you pick:",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"a uniform of black & white essentials",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"who knows! I'm always trying out new looks",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"I can't pick just one place|your unique taste",
+	         "id":1,
+	         "text":"The best seat in your house is...",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"angular, bold & pretty iconic looking",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"covered in mixed-to-match pillows & a quirky print of its own",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"wooden pieces with lots of texture",
+	         "id":1,
+	         "text":"Where do you get inspired?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"Pinterest",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"the craft store",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"who knows! I'm always trying out new looks|covered in mixed-to-match pillows & a quirky print of its own|prints, posters, patterns, color, oh my!|Pinterest",
+	         "id":1,
+	         "text":"How often do you update your home?",
+	         "type":"text",
+	         "buttons":[  
+	            {  
+	               "text":"I avoid clutter but make small tweaks every few months.",
+	               "nextmessage":"1"
+	            },
+	            {  
+	               "text":"whenever inspiration strikes!",
+	               "nextmessage":"2"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"seeing the ballet or going to a museum",
+	         "id":1,
+	         "url":"http://iot.macy.s3.amazonaws.com/wp_media_content/2015/11/Image_02_Traditional.jpg",
+	         "text":"Your style is marked by simple sophistication, easy elegance and ornate embellishments.",
+	         "type":"picture",
+	         "buttons":[  
+	            {
+	            	"text" : "\u2764 Shop traditional items"
+	            },
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      },
+	      {
+			"keywords": "Shop taditional items",
+			"url":"http://www1.macys.com/shop/wedding-registry/dining-entertaining/traditional?id=70533&edge=hybrid&cm_sp=mblog-_-wedding_11182015-_-registry_guide",
+			"type":"link",
+			"buttons":[
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"trying a new restaurant or seeing a new movie|a uniform of black & white essentials|I avoid clutter but make small tweaks every few months.",
+	         "url":"http://iot.macy.s3.amazonaws.com/wp_media_content/2015/11/Image_03_Modern.jpg",
+	         "text":"Your look is sleek, streamlined and full of bold, new shapes and details that pop.",
+	         "type":"picture",
+	         "buttons":[  
+	            {
+	            	"text" : "\u2764 Shop modern items"
+	            },
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      },
+	      {
+			"keywords": "Shop modern items",
+			"url":"http://www1.macys.com/shop/wedding-registry/dining-entertaining/modern?id=70535&edge=hybrid&cm_sp=mblog-_-wedding_11182015-_-registry_guide",
+			"type":"link",
+			"buttons":[
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      },
+	      {  
+	         "keywords":"whenever inspiration strikes!",
+	         "id":1,
+	         "url":"http://iot.macy.s3.amazonaws.com/wp_media_content/2015/11/Image_04_Trendy.jpg",
+	         "text":"Bright colors, cool patterns and a mixed-to-match feel define your style.",
+	         "type":"picture",
+	         "buttons":[  
+	            {
+	            	"text" : "\u2764 Shop trendy items"
+	            },
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      },
+	      {
+			"keywords": "Shop trendy items",
+			"url":"http://www1.macys.com/shop/wedding-registry/dining-entertaining/trendy?id=70534&edge=hybrid&cm_sp=mblog-_-wedding_11182015-_-registry_guide",
+			"type":"link",
+			"buttons":[
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      },	      
+	      {  
+	         "keywords":"the craft store",
+	         "id":1,
+	         "url":"http://iot.macy.s3.amazonaws.com/wp_media_content/2015/11/Image_05_Rustic.jpg",
+	         "text":"Your space has a down-to-earth homespun feel defined by natural hues and lots of texture.",
+	         "type":"picture",
+	         "buttons":[  
+	            {
+	            	"text" : "\u2764 Shop rustic items"
+	            },
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      },
+	      {
+			"keywords": "Shop rustic items",
+			"url":"http://www1.macys.com/shop/wedding-registry/dining-entertaining/rustic?id=70532&edge=hybrid&cm_sp=mblog-_-wedding_11182015-_-registry_guide",
+			"type":"link",
+			"buttons":[
+	            {  
+	               "text":"back to all the other ways I can help you!"
+	            }
+	         ]
+	      }
+	]
+}
